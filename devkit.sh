@@ -7,7 +7,7 @@ perl ./installer/perl/devkitPPCupdate.pl
 
 echo "Registering DEVKITPPC and DEVKITPRO in vagrant ~/.bashrc"
 
-cp .bashrc ~/.bashrc
+cp /vagrant/.bashrc ~/.bashrc
 source ~/.bashrc
 
 echo "Building Wii examples"

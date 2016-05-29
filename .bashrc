@@ -1,4 +1,4 @@
 #!/bin/bash
 
-DEVKITPRO=/home/vagrant/devkitPro
-DEVKITPPC=${DEVKITPRO}/devkitPPC
+export DEVKITPRO=/home/vagrant/devkitPro
+export DEVKITPPC=${DEVKITPRO}/devkitPPC
